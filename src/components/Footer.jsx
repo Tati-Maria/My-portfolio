@@ -1,10 +1,14 @@
 import React from 'react';
+import Layout from "../layout/Layout"
 import {BsGithub, BsLinkedin} from "react-icons/bs"
-import {SiGmail} from "react-icons/si"
+import {SiGmail} from "react-icons/si";
+import ScrollButton from './ScrollButton';
+
 
 const Footer = () => {
   return (
-    <section className='pt-10 py-5'>
+   <Layout>
+     <section className='pt-10 py-5 relative'>
       <div className='space-y-2 flex flex-col items-center'>
         <ul className='flex items-center gap-6'>
           <li className='text-center'>
@@ -31,7 +35,11 @@ const Footer = () => {
           <p className='underline'>Made by Maria {new Date().getFullYear()} &copy;</p>
         </div>
       </div>
+        <div className='absolute right-0 top-0'>
+          <ScrollButton />
+      </div>
     </section>
+   </Layout>
   )
 }
 

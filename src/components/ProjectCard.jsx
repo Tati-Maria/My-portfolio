@@ -1,11 +1,18 @@
 import React from 'react';
 import {projects} from "../assets/projects/projects"
+import {motion} from "framer-motion"
 
 const ProjectCard = () => {
   return (
     <div className='grid grid-cols-1 gap-16 place-items-center py-10 '>
         {projects.map(project => (
-            <div key={project.id} className="grid grid-cols-1 lg:grid-cols-2 place-items-center">
+            <motion.div
+            initial={{opacity: 0, scale: 0.5}}
+            whileInView={{opacity: 1, scale: 1}} 
+            transition={{duration: 1, ease: [0.25, 0.1, 0.25, 1]}}
+            viewport={{once: true}}
+            key={project.id} 
+            className="grid grid-cols-1 lg:grid-cols-2 place-items-center">
                 <img src={project.image} alt={project.name} className="rounded-lg" />
                 <div className='text-center space-y-5 lg:text-start lg:space-y-3'>
                   <h3 className='font-semibold text-2xl'>{project.name}</h3>
@@ -16,7 +23,7 @@ const ProjectCard = () => {
                   <a href={project.git} target="_blank" className='block underline shadow-sm'>Source Code</a>
                   </div>
                 </div>
-            </div>
+            </motion.div>
         ))}
     </div>
   )
