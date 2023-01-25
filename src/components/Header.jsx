@@ -5,7 +5,7 @@ import {motion} from "framer-motion"
 const Header = () => {
   return (
     <Layout>
-    <nav className='py-4'>
+    <nav className='py-6'>
         <ul className='text-end space-x-16 text-lg'>
             <li className='inline-block'>
                 <a href="#about">About</a>
@@ -24,7 +24,7 @@ const Header = () => {
     <motion.section
     animate={{opacity: 1, scale: 1}}
     transition={{
-        duration: 2,
+        duration: 1,
         ease: [0.5, 0.71, 1, 1.5]
     }} 
     initial={{

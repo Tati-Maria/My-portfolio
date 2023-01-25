@@ -5,7 +5,7 @@ import Title from "./Title";
 const About = () => {
   return (
     <Layout>
-    <section className='grid grid-cols-1 lg:grid-cols-3 py-5 place-items-center gap-10' id="#about">
+    <section className='grid grid-cols-1 lg:grid-cols-3 py-5 place-items-center gap-10' id="about">
         <div className='py-4 space-y-6 col-span-1 lg:col-span-2 text-center lg:text-left'>
             <Title title="About Me" />
             <p className="text-base md:text-lg leading-relaxed">
