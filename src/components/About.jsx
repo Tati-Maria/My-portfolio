@@ -22,7 +22,7 @@ const About = () => {
             </p>
         </div>
         <div className="flex items-center justify-center">
-          <img src={me} alt="Maria's photo" className="rounded-md w-2/3 lg:w-full" />
+          <img src={me} alt="Maria's photo front-end developer" className="rounded-md w-2/3 lg:w-full" />
         </div>
     </section>
     </Layout>
