@@ -13,7 +13,7 @@ const ProjectCard = () => {
             viewport={{once: true}}
             key={project.id} 
             className="grid grid-cols-1 lg:grid-cols-2 place-items-center">
-                <img src={project.image} alt={project.name} className="w-2/3 md:w-1/2 lg:w-full" />
+                <img src={project.image} alt={project.name} className="md:w-1/2 lg:w-full" />
                 <div className='text-center space-y-5 lg:text-start lg:space-y-3'>
                   <h3 className='font-semibold text-2xl'>{project.name}</h3>
                   <p className='text-base'>{project.about}</p>

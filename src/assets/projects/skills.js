@@ -83,7 +83,7 @@ export const skills = [
     },
     {
         id: 14,
-        name: "EsLint",
+        name: "ESLint",
         img: eslint
     },
     {
