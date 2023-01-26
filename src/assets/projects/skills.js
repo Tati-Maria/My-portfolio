@@ -21,7 +21,7 @@ export const skills = [
     },
     {
         id: 2,
-        name: "CSS",
+        name: "CSS3",
         img: css
     },
     {
