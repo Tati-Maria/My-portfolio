@@ -27,7 +27,7 @@ export const projects = [
         id: 3,
         name: "Curly Salon",
         about: "Using Next.js and Tailwindcss, I created a visually stunning and responsive website for a fictional hair salon. Clean and modern design, plus an easy navegation. I added a service page and shopping cart where users can add, remove and increase the quantity of the products they wish to buy.",
-        link: "curly-salon-website.vercel.app/",
+        link: "https://curly-salon-website.vercel.app/",
         git: "https://github.com/Tati-Maria/curly-salon-website",
         image: project3,
         tech: "Next.js, Tailwindcss, and Context API."
@@ -36,7 +36,7 @@ export const projects = [
         id: 4,
         name: "FrutiMarket",
         about: "It is a fictional fruit store where users can browse and purchase different types of fruits. The focus of the project was primarily on the implementation of the logic and functionality, rather than the visual design.",
-        link: "fruittymarket.netlify.app/",
+        link: "https://fruittymarket.netlify.app/",
         git: "https://github.com/Tati-Maria/fruit-market",
         image: project4,
         tech: "React, Typescript, Redux Toolkit and SCSS."
