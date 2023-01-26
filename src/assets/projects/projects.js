@@ -1,17 +1,18 @@
-import project1 from "../images/bloggy-pc.png";
-import project2 from "../images/mov-pc.png";
-import project3 from "../images/curly-pc.png";
-import project5 from "../images/steak-pc.png";
+import project1 from "../images/bloggy.png";
+import project2 from "../images/mov.png";
+import project3 from "../images/curly.png";
+import project4 from "../images/fruti.png"
+import project5 from "../images/dining.png";
 
 export const projects = [
     {
         id: 1,
         name: "Bloggy",
-        about: "A dynamic and user-friendly blog platform built with Firebase and Nextjs. Utilizing Firebase's powerful database and user authentication features, users are able to create, edit, and delete their own posts, as well as interact with other users' content in a protected enviroment. Also, added dark and light mode using next-theme.",
+        about: "A dynamic and user-friendly blog platform built with Firebase and Nextjs. Utilizing Firebase's powerful database and user authentication features, users are able to create, edit, and delete their own posts, as well as interact with other users' content in a protected enviroment. Also, implemented dark and light mode using next-theme.",
         link: "https://bloggy-rouge.vercel.app/",
         git: "https://github.com/Tati-Maria/Bloggy",
         image: project1,
-        tech: "Next.js, Tailwindcss and Firebase"
+        tech: "Next.js, Tailwindcss, and Firebase."
     },
     {
         id: 2,
@@ -20,7 +21,7 @@ export const projects = [
         link: "https://popular-mov.vercel.app/",
         git: "https://github.com/Tati-Maria/movie-app",
         image: project2,
-        tech: "React, Tailwindcss, React Router v6 and Axios"
+        tech: "React, Tailwindcss, React Router v6, and Axios."
     },
     {
         id: 3,
@@ -29,7 +30,16 @@ export const projects = [
         link: "curly-salon-website.vercel.app/",
         git: "https://github.com/Tati-Maria/curly-salon-website",
         image: project3,
-        tech: "Next.js, Tailwindcss and Context API"
+        tech: "Next.js, Tailwindcss, and Context API."
+    },
+    {
+        id: 4,
+        name: "FrutiMarket",
+        about: "It is a fictional fruit store where users can browse and purchase different types of fruits. The focus of the project was primarily on the implementation of the logic and functionality, rather than the visual design.",
+        link: "fruittymarket.netlify.app/",
+        git: "https://github.com/Tati-Maria/fruit-market",
+        image: project4,
+        tech: "React, Typescript, Redux Toolkit and SCSS."
     },
     {
         id: 5,
@@ -38,6 +48,6 @@ export const projects = [
         link: "https://steakndining.netlify.app/",
         git: "https://github.com/Tati-Maria/steakndining-restaurant",
         image: project5,
-        tech: "React and Tailwindcss"
+        tech: "React and Tailwindcss."
     },
 ]

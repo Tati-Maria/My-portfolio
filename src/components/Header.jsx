@@ -1,12 +1,18 @@
-import React from 'react'
+import React, {useState} from 'react';
+import {HiMenuAlt1} from "react-icons/hi";
+import {TiTimes} from "react-icons/ti";
 import Layout from '../layout/Layout';
 import {motion} from "framer-motion"
+import ExtraNav from './ExtraNav';
 
 const Header = () => {
+    const [nav, setNav] = useState(false);
+
+
   return (
     <Layout>
-    <nav className='py-6'>
-        <ul className='text-end space-x-16 text-lg'>
+    <nav className='py-6 relative'>
+        <ul className='hidden md:block text-end space-x-16 text-lg'>
             <li className='inline-block'>
                 <a href="#about">About</a>
             </li>
@@ -20,6 +26,10 @@ const Header = () => {
                 <a href="#" download="Maria's Resumé">My Resumé</a>
             </motion.li>
         </ul>
+        <button className="block cursor-pointer md:hidden" onClick={() => setNav(!nav)}>
+        {nav ? (<TiTimes size={35} color="red" />) : (<HiMenuAlt1 size={35}/>)}
+        </button>
+        {nav && (<ExtraNav />)}
     </nav>
     <motion.section
     animate={{opacity: 1, scale: 1}}

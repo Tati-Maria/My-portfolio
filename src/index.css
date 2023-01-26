@@ -5,3 +5,19 @@
 a:hover{
     @apply bg-gradient-to-r bg-clip-text from-blue-400 to-green-400 text-transparent duration-300;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: 12px;
+}
+
+html::-webkit-scrollbar-track {
+    @apply bg-black;
+}
+
+html::-webkit-scrollbar-thumb{
+    @apply bg-blue-900 rounded-3xl 
+}

@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div className='text-white bg-slate-800' id='projects'>
       <Layout>
-        <div className='text-center pt-16 pb-5'>
+        <div className='text-center pt-16'>
         <Title title="Projects" />
         </div>
         <section>

@@ -1,4 +1,4 @@
-import me from "../assets/images/me.png"
+import me from "../assets/images/mari.png"
 import Layout from '../layout/Layout';
 import Title from "./Title";
 
