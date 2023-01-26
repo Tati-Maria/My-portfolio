@@ -19,12 +19,6 @@ const Header = () => {
             <li className='inline-block'>
                 <a href="#projects">Projects</a>
             </li>
-            <motion.li 
-            whileHover={{scale: 1.1}}
-            whileTap={{scale: 0.9}}
-            className='inline-block w-max text-black bg-white py-1 px-6 rounded-lg'>
-                <a href="#" download="Maria's Resumé">My Resumé</a>
-            </motion.li>
         </ul>
         <button className="block cursor-pointer md:hidden" onClick={() => setNav(!nav)}>
         {nav ? (<TiTimes size={35} color="red" />) : (<HiMenuAlt1 size={35}/>)}
