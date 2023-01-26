@@ -15,7 +15,12 @@ const Projects = () => {
         <section>
           <ProjectCard />
         </section>
-        <motion.button type='button' aria-label='button link' className='flex items-center gap-2 w-max mx-auto my-10 py-3 px-10 rounded-md text-base bg-white text-black hover:scale-110 duration-300'>
+        <motion.button 
+         whileHover={{scale: 1.1}}
+         whileTap={{scale: 0.9}}
+        type='button' 
+        aria-label='button link' 
+        className='flex items-center gap-2 w-max mx-auto my-10 py-3 px-10 rounded-md text-base bg-white text-black'>
           <a href="https://github.com/Tati-Maria" target='_blank'>See More</a>
           <AiOutlineArrowRight />
         </motion.button>
