@@ -41,7 +41,7 @@ const Header = () => {
         opacity: 0,
         scale: 0.5
     }}
-    className='flex items-center justify-center flex-col h-full mt-52 space-y-6'>
+    className='flex items-center justify-center flex-col h-full mt-48 space-y-6'>
         <h1 className='text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-center'>Hi, I'm Maria</h1>
         <span className='text-xl lg:text-3xl capitalize'>A front-end developer</span>
         <motion.button 

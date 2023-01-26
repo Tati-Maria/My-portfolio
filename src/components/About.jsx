@@ -9,10 +9,9 @@ const About = () => {
         <div className='py-4 space-y-6 col-span-1 lg:col-span-2 text-center lg:text-left'>
             <Title title="About Me" />
             <p className="text-base md:text-lg leading-relaxed">
-            Hi, I'm Maria Tati. I'm a self taught front-end developer from Angola, 
-            currently living in Lisbon, Portugal. Adept at writing clean and reusable 
-            code, bringing designs to live and building accessible web applications 
-            that users love. 
+            Hi, I'm Maria Tati. <strong className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-500">I'm a self taught front-end developer</strong> from Angola, 
+            currently living in Lisbon, Portugal. Adept at <strong className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-500">writing clean and reusable 
+            code</strong>, bringing designs to live and building accessible web applications and <strong className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-800">a firm believer of mobile first approach</strong>. 
             </p>
             <p className="text-base md:text-lg  leading-relaxed">
             Besides programming , I enjoy playing my favorite game Dead by Daylight, 

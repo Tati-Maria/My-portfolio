@@ -28,7 +28,7 @@ const Skills = () => {
       <div className='text-center pt-10 py-20'>
       <Title title="Skills & Technologies" />
       </div>
-      <div className='grid grid-cols-3 place-items-center gap-5 md:gap-10 lg:gap-16 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5'>
+      <div className='grid grid-cols-2 place-items-center gap-5 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 md:gap-10 lg:gap-16'>
         {paginatedSkills.map(skill => (
           <div key={skill.id} className="flex flex-col gap-5 items-center hover:scale-110 duration-300 p-2">
             <img src={skill.img} alt={skill.name} className="w-16" />
