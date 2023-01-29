@@ -39,7 +39,7 @@ export const projects = [
         link: "https://fruittymarket.netlify.app/",
         git: "https://github.com/Tati-Maria/fruit-market",
         image: project4,
-        tech: "React, Typescript, Redux Toolkit and SCSS."
+        tech: "React, Typescript, Redux Toolkit and SASS."
     },
     {
         id: 5,
