@@ -44,7 +44,7 @@ export const projects = [
     {
         id: 5,
         name: "Steak'nDining",
-        about: "Built with the latest technologies such as Tailwind and React, this landing page offers an easy-to-use interface that allows you to filter through menu options by category and price. Also, an additional reservention form with a confirmation message. This project showcases my ability to create functional, visually appealing web designs that enhance user engagement. Completely responsive",
+        about: "Built with the latest technologies such as Tailwind and React, this landing page offers an easy-to-use interface that allows you to filter through menu options by category and price. Also, an additional reservention form with a confirmation message. This project showcases my ability to create functional, visually appealing web designs that enhance user engagement. Completely responsive.",
         link: "https://steakndining.netlify.app/",
         git: "https://github.com/Tati-Maria/steakndining-restaurant",
         image: project5,
