@@ -10,8 +10,7 @@ import git from "../icons/git.svg"
 import sass from "../icons/sass-1.svg";
 import nodejs from "../icons/nodejs.svg";
 import eslint from "../icons/eslint-1.svg";
-import apollo from "../icons/apollo-graphql-1.svg"
-import graph from "../icons/graphql-logo-2 (1).svg"
+import jest from "../icons/jest-2.svg";
 import webpack from "../icons/webpack-icon.svg"
 import npm from "../icons/npm.svg"
 
@@ -68,32 +67,27 @@ export const skills = [
     },
     {
         id: 11,
-        name: "GraphQl",
-        img: graph
-    },
-    {
-        id: 12,
         name: "Nodejs",
         img: nodejs
     },
     {
-        id: 13,
+        id: 12,
         name: "NPM",
         img: npm
     },
     {
-        id: 14,
+        id: 13,
         name: "ESLint",
         img: eslint
     },
     {
-        id: 15,
-        name: "Apollo Client",
-        img: apollo
-    },
-    {
-        id: 16,
+        id: 14,
         name: "Webpack",
         img: webpack
+    },
+    {
+        id: 15,
+        name: "Jest",
+        img: jest
     },
 ];
