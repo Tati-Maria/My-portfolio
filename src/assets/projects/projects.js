@@ -3,6 +3,7 @@ import project2 from "../images/mov.png";
 import project3 from "../images/curly.png";
 import project4 from "../images/fruti.png"
 import project5 from "../images/dining.png";
+import project6 from "../images/johanne.png";
 
 export const projects = [
     {
@@ -43,6 +44,15 @@ export const projects = [
     },
     {
         id: 5,
+        name: 'E-commerce Website',
+        about: 'A single page application mocking a real e-commerce website.  It includes a fully integrated products page, product detailed information, a cart, and checkout process using Stripe. The use of Redux Toolkit helps manage state across the application, while Tailwindcss and Material UI provide pre-built styling components to enhance the overall design and user experience.',
+        link: 'https://johanne-ecommerce.vercel.app/',
+        git: 'https://github.com/Tati-Maria/johanne-ecommerce',
+        image: project6,
+        tech: 'React, Redux, Tailwindcss, React-Router, MUI , and Stripe'
+    },
+    {
+        id: 6,
         name: "Steak'nDining",
         about: "Built with the latest technologies such as Tailwind and React, this landing page offers an easy-to-use interface that allows you to filter through menu options by category and price. Also, an additional reservention form with a confirmation message. This project showcases my ability to create functional, visually appealing web designs that enhance user engagement. Completely responsive.",
         link: "https://steakndining.netlify.app/",
