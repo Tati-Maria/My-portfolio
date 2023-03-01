@@ -32,15 +32,15 @@ const Skills = () => {
         {paginatedSkills.map(skill => (
           <div key={skill.id} className="flex flex-col gap-5 items-center hover:scale-110 duration-300 p-2">
             <img src={skill.img} alt={skill.name} className="w-16" />
-            <h5 className='font-medium text-base md:text-lg lg:text-xl'>{skill.name}</h5>
+            <h4 className='font-medium text-base md:text-lg lg:text-xl'>{skill.name}</h4>
           </div>
         ))}
       </div>
       <div className='flex items-center justify-center gap-10 pt-10'>
-        <button onClick={() => handlePageChange(currentPage - 1)} disabled={currentPage === 1} className="disabled:text-gray-700">
+        <button title='previous' onClick={() => handlePageChange(currentPage - 1)} disabled={currentPage === 1} className="disabled:text-gray-700">
           <BsFillArrowLeftCircleFill size={30} />
         </button>
-        <button onClick={() => handlePageChange(currentPage + 1)} disabled={currentPage === totalPages} className="disabled:text-gray-700">
+        <button title='next' onClick={() => handlePageChange(currentPage + 1)} disabled={currentPage === totalPages} className="disabled:text-gray-700">
           <BsFillArrowRightCircleFill size={30} />
         </button>
       </div>

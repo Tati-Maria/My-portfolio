@@ -34,15 +34,6 @@ export const projects = [
         tech: "Next.js, Tailwindcss, and Context API."
     },
     {
-        id: 4,
-        name: "FrutiMarket",
-        about: "It is a fictional fruit store where users can browse and purchase different types of fruits. The focus of the project was primarily on the implementation of the logic and functionality, rather than the visual design.",
-        link: "https://fruittymarket.netlify.app/",
-        git: "https://github.com/Tati-Maria/fruit-market",
-        image: project4,
-        tech: "React, Typescript, Redux Toolkit and SASS."
-    },
-    {
         id: 5,
         name: 'E-commerce Website',
         about: 'A single page application mocking a real e-commerce website.  It includes a fully integrated products page, product detailed information, a cart, and checkout process using Stripe. The use of Redux Toolkit helps manage state across the application, while Tailwindcss and Material UI provide pre-built styling components to enhance the overall design and user experience.',

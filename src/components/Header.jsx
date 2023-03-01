@@ -14,13 +14,13 @@ const Header = () => {
     <nav className='py-6 relative'>
         <ul className='hidden md:block text-end space-x-16 text-lg'>
             <li className='inline-block'>
-                <a href="#about">About</a>
+                <a href="#about" title='about me'>About</a>
             </li>
             <li className='inline-block'>
-                <a href="#projects">Projects</a>
+                <a href="#projects" title='my projects'>Projects</a>
             </li>
         </ul>
-        <button className="block cursor-pointer md:hidden" onClick={() => setNav(!nav)}>
+        <button className="block cursor-pointer md:hidden" name='open menu' onClick={() => setNav(!nav)}>
         {nav ? (<TiTimes size={35} color="red" />) : (<HiMenuAlt1 size={35}/>)}
         </button>
         {nav && (<ExtraNav />)}
@@ -43,7 +43,7 @@ const Header = () => {
         whileTap={{scale: 0.9}}
         className='text-lg py-3 px-8 bg-gradient-to-r from-blue-700 to-green-700 rounded-full shadow-md'
         >
-            <a href="mailto:rosatati14@gmail.com">
+            <a href="mailto:rosatati14@gmail.com" title='my email' role='button'>
             Connect with me
             </a>
         </motion.button>

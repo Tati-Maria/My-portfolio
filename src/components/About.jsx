@@ -21,7 +21,7 @@ const About = () => {
             </p>
         </div>
         <div className="flex items-center justify-center">
-          <img src={me} alt="Maria's photo front-end developer" className="rounded-md" />
+          <img src={me} alt="Maria's icon" className="rounded-md" />
         </div>
     </section>
     </Layout>
