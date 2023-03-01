@@ -17,7 +17,7 @@ const ProjectCard = () => {
                 <div className='text-center space-y-5 lg:text-start lg:space-y-3'>
                   <h3 className='font-semibold text-2xl'>{project.name}</h3>
                   <p className='text-base'>{project.about}</p>
-                  <span className='block text-blue-400 w-max mx-auto py-2 rounded-full lg:mx-0'>{project.tech}</span>
+                  <span className='block text-orange-400 w-max mx-auto py-2 rounded-full lg:mx-0'>{project.tech}</span>
                   <div className='flex items-center gap-10 justify-center lg:justify-start'>
                   <a href={project.link} target="_blank" className='block underline shadow-sm'>See Live</a>
                   <a href={project.git} target="_blank" className='block underline shadow-sm'>Source Code</a>

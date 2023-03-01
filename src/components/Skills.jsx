@@ -22,7 +22,7 @@ const Skills = () => {
 
 
   return (
-    <div className='bg-slate-900'>
+    <div className='bg-white'>
     <Layout>
     <section className='pt-10 pb-20'>
       <div className='text-center pt-10 py-20'>

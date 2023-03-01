@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        glacial: ["Glacial Indifference", "sans-serif"]
+        dmsans: ["DM Sans", "sans-serif"],
+        space: ["Space Grotesk", "sans-serif"],
       }
     },
   },

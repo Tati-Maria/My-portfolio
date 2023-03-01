@@ -9,15 +9,15 @@ function App() {
 
   return (
     <>
-    <header className="min-h-screen bg-slate-800 text-white">
+    <header className="min-h-screen text-white">
       <Header />
     </header>
-    <main className="min-h-screen bg-slate-900 text-white">
+    <main className="min-h-screen bg-white">
       <About />
       <Projects />
       <Skills />
     </main>
-    <footer className="bg-slate-800 text-white">
+    <footer className="bg-black text-white">
       <Footer />
     </footer>
     </>
