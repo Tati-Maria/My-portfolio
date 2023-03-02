@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.aside-list a:hover{
-    @apply bg-gradient-to-r bg-clip-text from-blue-400 to-green-400 text-transparent duration-300;
-}
-
 html{
     scroll-behavior: smooth;
 }
@@ -24,58 +20,5 @@ html::-webkit-scrollbar-thumb{
 
 html::-webkit-scrollbar-thumb:hover{
     @apply bg-blue-700;
-}
-
-nav{
-    @apply hidden h-screen absolute inset-0 overflow-hidden z-10;
-}
-
-.aside-section{
-    @apply top-0 bottom-0 absolute;
-}
-
-.aside-left {
-    @apply w-[40%] left-0  h-full bg-gradient-to-r from-slate-900 to-slate-700;
-}
-
-.aside-left{
-    transform: translateY(-100%);
-}
-
-.aside-left,
-.aside-right {
-    transition: transform 0.4s ease-in-out;
-}
-
-.aside-right{
-    @apply h-full right-0  bg-white text-black;
-}
-
-.aside-right{
-    transform: translateX(100%);
-}
-
-.aside-list{
-    @apply mt-[150px] text-left pl-[50px];
-}
-
-.aside-content{
-    @apply mt-[150px] text-center px-10 relative;
-}
-
-.aside-list li{
-    @apply mb-5;
-}
-
-nav.isactive{
-    @apply block;
-}
-
-.aside-left.isactive{
-    transform: translateY(0)
-}
-
-.aside-right.isactive{
-   transform: translateX(0);
 }
 

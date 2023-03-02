@@ -1,7 +1,6 @@
 import project1 from "../images/bloggy.png";
 import project2 from "../images/mov.png";
 import project3 from "../images/curly.png";
-import project4 from "../images/fruti.png"
 import project5 from "../images/dining.png";
 import project6 from "../images/johanne.png";
 
@@ -18,7 +17,7 @@ export const projects = [
     {
         id: 2,
         name: "Popular Mov",
-        about: "Built a movie app utilizing the TMDB movie API to access a vast database of films. Utilized React, TailwindCSS, and React-Router-Dom to provide an engaging user experience. Users can easily browse and search for movies, view detailed information, and stay up to date with the latest releases.",
+        about: "Built a movie app utilizing the TMDB movie API to access a vast database of films. Utilized React, TailwindCSS, and React-Router-Dom to provide an engaging user experience. Users can easily browse and search for movies, plus view detailed information.",
         link: "https://popular-mov.vercel.app/",
         git: "https://github.com/Tati-Maria/movie-app",
         image: project2,
@@ -36,7 +35,7 @@ export const projects = [
     {
         id: 5,
         name: 'E-commerce Website',
-        about: 'A single page application mocking a real e-commerce website.  It includes a fully integrated products page, product detailed information, a cart, and checkout process using Stripe. The use of Redux Toolkit helps manage state across the application, while Tailwindcss and Material UI provide pre-built styling components to enhance the overall design and user experience.',
+        about: 'A single page application mocking a real e-commerce website.  It includes a fully integrated products page, product detailed information, a cart, and checkout process using Stripe. The use of Redux Toolkit helps manage state across the application, while Tailwindcss and Material UI provide pre-built styling components to enhance the overall design and user experience.(The UI might have changed)',
         link: 'https://johanne-ecommerce.vercel.app/',
         git: 'https://github.com/Tati-Maria/johanne-ecommerce',
         image: project6,
