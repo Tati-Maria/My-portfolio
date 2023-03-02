@@ -13,7 +13,7 @@ const Footer = () => {
         <ul className='flex items-center gap-6'>
           <li className='text-center'>
             <a href="https://github.com/Tati-Maria" target="_blank" title='Github profile'>
-              <BsGithub className='text-gray-900' size={20} />
+              <BsGithub className='text-white' size={20} />
             </a>
             </li>
             <li>

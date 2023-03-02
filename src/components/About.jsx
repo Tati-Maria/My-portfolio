@@ -13,7 +13,7 @@ const About = () => {
             currently living in Lisbon, 🇵🇹. Adept at <strong className="">writing clean and reusable 
             code</strong>, bringing designs to live, and a firm believer of mobile first approach. 
             </p>
-            <p className="text-base md:text-lg">Here you will find my most recent projects. Check out my <a href="https://github.com/Tati-Maria" target='_blank' className="font-bold underline">github</a> for more.</p>
+            <p className="text-base md:text-lg">Here you will find my most recent projects. Check out my <a href="https://github.com/Tati-Maria" target='_blank' className="text-blue-500 font-bold underline">github</a> for more.</p>
             <p className="text-base md:text-lg">
             Besides programming , I enjoy playing my favorite game Dead by Daylight, 
             watching movies and continuosly expanding my knowledge through 

@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    <header className="min-h-screen text-white">
+    <header className="min-h-screen bg-slate-800 text-white">
       <Header />
     </header>
     <main className="min-h-screen bg-white">
@@ -17,7 +17,7 @@ function App() {
       <Projects />
       <Skills />
     </main>
-    <footer className="bg-black text-white">
+    <footer className="bg-slate-900 text-white">
       <Footer />
     </footer>
     </>

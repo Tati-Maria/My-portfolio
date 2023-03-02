@@ -26,7 +26,7 @@ const Navigation = () => {
     animate={isOpen ? "open" : "closed"}
    >
     <motion.button
-    className='fixed top-5 right-5 z-50 bg-gray-900 p-2 rounded-md text-white'
+    className='fixed top-5 right-5 z-50 bg-blue-700 p-2 rounded-md text-white'
     whileTap={{ scale: 0.97 }}
     onClick={handleToggle}
     >
