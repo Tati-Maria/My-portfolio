@@ -20,7 +20,7 @@ const About = () => {
             collab, or hire me.
             </p>
         </div>
-        <div className="hidden md:flex items-center justify-center">
+        <div className="hidden lg:flex items-center justify-center">
           <img src={me} alt="Maria's icon" className="rounded-md" />
         </div>
     </section>
