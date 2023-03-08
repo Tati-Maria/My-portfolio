@@ -4,7 +4,7 @@ import {motion} from "framer-motion"
 
 const ProjectCard = () => {
   return (
-    <div className='grid grid-cols-1 gap-16 place-items-center py-10 '>
+    <div className='grid grid-cols-1 gap-16 place-items-center pb-10 '>
         {projects.map(project => (
             <motion.div
             initial={{opacity: 0, scale: 0.5}}

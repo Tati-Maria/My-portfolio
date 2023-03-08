@@ -1,6 +1,7 @@
 import project1 from "../images/bloggy.png";
 import project2 from "../images/mov.png";
-import project3 from "../images/curly.png";
+import project3 from "../images/mylibrary.png";
+import project4 from "../images/mobudget.png";
 import project5 from "../images/dining.png";
 import project6 from "../images/johanne.png";
 
@@ -25,12 +26,21 @@ export const projects = [
     },
     {
         id: 3,
-        name: "Curly Salon",
-        about: "Using Next.js and Tailwindcss, I created a visually stunning and responsive website for a fictional hair salon. Clean and modern design, plus an easy navegation. I added a service page and shopping cart where users can add, remove and increase the quantity of the products they wish to buy.",
-        link: "https://curly-salon-website.vercel.app/",
-        git: "https://github.com/Tati-Maria/curly-salon-website",
+        name: "MyLibrary",
+        about: "The app has a server-side component built with Node.js and Express, which provides a RESTful API that can be used to perform CRUD operations on MongoDB database. EJS (Embedded JavaScript) is used for templating and rendering the views on the client-side. Feel free to add your own books and delete them.",
+        link: "https://maria-book-app.herokuapp.com/",
+        git: "https://github.com/Tati-Maria/Book-app",
         image: project3,
-        tech: "Next.js, Tailwindcss, and Context API."
+        tech: "Nodejs, Expressjs, EJs and MongoDB."
+    },
+    {
+        id: 4,
+        name: "MoBudget",
+        about: 'This project is built with React and React-Router-Dom allows users to keep track of their expenses. The app stores its data using local storage, which means that the information will be saved even if the user closes the browser window or navigates away from the page.',
+        link: 'https://mobudget-app.vercel.app/',
+        git: 'https://github.com/Tati-Maria/budget-app',
+        image: project4,
+        tech: 'React, React-Router-Dom@v6, CSS.'
     },
     {
         id: 5,
